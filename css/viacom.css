@@ -10,7 +10,6 @@ html{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background-color: #282e77;
-
 }
 
 h1{
@@ -354,7 +353,10 @@ body{
     filter: drop-shadow(0px 8px 4px rgba(0,0,0,0.14));
     background-color: #fff;
 }
-
+.cir-stru:hover{
+    background-color: #282e77;
+    cursor: pointer;
+}
 .men-cir{
     width: 23.2rem;
 	height: 23.5rem;
@@ -666,7 +668,7 @@ body{
 }
 
 .Address{
-    width: 115rem;
+    width: 80rem;
     height: 8rem;
     border-radius: 1rem;
     background-color: #000000;
@@ -675,7 +677,7 @@ body{
 }
 
 .Address h1{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     letter-spacing: .2rem;
     line-height: 1.6rem;
     color: #fff;
@@ -684,7 +686,7 @@ body{
 }
 
 .Address h2{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     letter-spacing: .2rem;
     line-height: 1.6rem;
     color: #fff;
@@ -780,4 +782,372 @@ body{
     color: #ecc3e7;
     font-weight: 500;
     text-align: center;
+}
+
+@media (max-width : 1120px){
+    .nav-bar {
+        width: 70rem;
+        height: 5rem;
+        border-radius: .4rem;
+    }
+
+    .nav-bar h1 {
+        font-size: 1.4rem;
+    }
+
+    .nav-bar ul li {
+        padding: 0 .4rem;
+    }
+
+    .nav-bar ul li a {
+        font-size: 1rem;
+    }
+
+    .banner {
+        margin: 4rem 0 0 0;
+    }
+
+    .finprint-diji img{
+        width: 8rem;
+        height: 8.5rem;
+    }
+
+    .diji-insum h1{
+        font-size: 2.8rem;
+        margin: -.9rem 0 1.5rem 1rem;
+    }
+
+    .diji-insum h2{
+        font-size: 2.8rem;
+        margin: -2.6rem 0 1.5rem 1rem;
+    }
+
+    .init-to-finance{
+        width: 28.3rem;
+        height: 2.4rem;
+    }
+
+    .init-to-finance h3{
+        font-size: .9rem;
+        letter-spacing: .2rem;
+        margin: .7rem 0 0 0;
+    }
+
+    .sponsored h1{
+        font-size: 1rem;
+        letter-spacing: 1px;
+        margin: .8rem 0 0 0;
+    }
+
+    .sponsored img{
+        width: 12.4rem;
+        height: 2.8rem;
+        margin: .3rem 0 0 0;
+    }
+
+    .sponsored h2{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        text-align: center;
+        margin: 1rem auto .8rem auto;
+    }
+
+    .sponsored h3{
+        font-size: 1.4rem;
+    }
+
+    .right-banner img{
+        width: 38rem;
+        height: 32rem;
+        margin: 3.8rem 0 0 0;
+    }
+
+    .overview h1{
+        font-size: 2.6rem;
+        margin: 4rem 0 2rem 0;
+    }
+
+    .overview h2{
+        font-size: 1.1rem;
+        width: 75%;
+        margin: 2.4rem auto;
+    }
+
+    .key-diss h1{
+        font-size: 2.6rem;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .key-elem{
+        width: 75%;
+        box-sizing: border-box;
+    }
+
+    .key-layout{
+        height: 15.6rem;
+    }
+
+    .bank-logo{ 
+        scale: .8;
+    }
+
+    .fing-logo{
+        scale: .8; 
+    }
+
+    .dollar-logo{
+        scale: .8; 
+    }
+
+    .dcoin-logo{
+        scale: .8;  
+    }
+
+    .buil-logo{
+        scale: .8;  
+    }
+
+    .stuc-logo{
+        scale: .8;   
+    }
+
+    .ad-logo{
+        scale: .8;  
+    }
+
+    .data-logo{
+        scale: .8;   
+    }
+
+    .chip-logo{
+        scale: .8; 
+    }
+
+    .warn-logo{
+        scale: .8; 
+    }
+
+    .manW-logo{
+        scale: .8;   
+    }
+
+    .key-layout i{
+        margin: 1.2rem 0 0 1.2rem;
+    }
+
+    .key-layout h1{
+        width: 80%;
+        line-height: 1.6rem;
+        font-size: 1.1rem;
+        margin: .7rem auto;
+    }
+
+    .Speakers h1 {
+        font-size: 3.6rem;
+        color: #ecc3e7;
+        font-weight: 700;
+        text-align: center;
+        margin: 2rem 0 3rem 0;
+    }
+
+    .photo-layout h1{
+        font-size: 1.8rem;
+    }
+
+    .agenda{
+        padding: 3rem 0 1rem 0;
+    }
+
+    .agenda h1{
+        font-size: 3rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .agenda h2{
+        font-size: 1.7rem;
+        margin: 0 0 3rem 0;
+    }
+
+    .agenda-divider{
+        margin: 2rem auto 2rem auto;
+    }
+
+    .left-agen{
+        margin: 0 12rem 0 0;
+    }
+
+    .right-agen{
+        margin: 0 0 0 12rem ;
+    }
+
+    .left-agen h1{
+        font-size: 1.3rem;
+    }
+
+    .left-agen h2{
+        font-size: 1.3rem;
+        
+    }
+
+    .right-agen h1{
+        font-size: 1.3rem;
+    }
+
+    .right-agen h2{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        width: 30rem;
+        margin: 0;
+    }
+
+
+
+
+
+
+.who-should h1{
+    font-size: 2.6rem;
+}
+
+.phonePro-logo{
+    scale: .8;
+}
+
+.right-wrap{
+    margin: 5rem 0 0 0;
+}
+
+.left-who i{
+    margin: 5rem 0 0 0;
+}
+
+.tick-logo{
+    scale: .7;
+}
+
+.tick-who h1{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 2.7rem 0 0 0;
+}
+
+.tick-who i{
+    margin: 3rem 1rem 0 0;
+}
+
+.Why-attend h1{
+    font-size: 2.6rem;
+}
+
+.left-lock h2{
+    font-size: 1.2rem;
+    width: 20rem;
+     margin: -.2rem .4rem 0 0;
+}
+
+.left-lock i{
+    margin: -.1rem 0 0 .4rem;
+}
+
+.lock-logo{
+    scale: .9;  
+}
+
+.mid-why i{
+    margin: -2rem 0 0 0;
+}
+
+.digilock-logo{
+    scale: .8; 
+}
+
+.right-lock{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.right-lock h2{
+    font-size: 1.2rem;
+    width: 20rem; 
+    margin: -.2rem .4rem 0 0;  
+}
+
+.right-lock i{
+    margin: -.1rem .4rem 0 0;
+}
+
+.why-elem{
+    margin: 0 0 2rem 0;
+}
+
+.venue{
+    padding: 6rem;
+}
+
+.venue h1{
+    font-size: 3rem;
+    margin: 1rem 0 6rem 0;
+}
+
+.google-map iframe{
+    height: 25rem;
+    width: 40rem;
+    border-radius: .5rem;
+}
+
+.Address{
+    width: 60rem;
+    height: 6.5rem;
+    margin: 4rem 0 0;
+}
+
+.Address h1{
+    font-size: 1.7rem;
+    margin: .9rem 0 .5rem 1.5rem;
+}
+
+.Address h2{
+    font-size: 1rem;
+    margin: 0 0 0 1.5rem;
+}
+    
+.contact-us{
+    height: 43.5;
+    margin: 4rem auto 0 auto;
+    padding: 3rem 0 2rem 0;
+}
+
+.contact-us h1{
+    font-size: 2.6rem;
+    margin: 1rem 0 4rem 0;
+}
+
+.cont-layout{
+    margin: 3rem 5rem;
+}
+
+.cont-layout h1{
+    font-size: 1.5rem;
+    margin: 0 0 1.5rem 0;
+} 
+
+.cont-layout h2{
+    font-size: 1.6rem;
+}
+
+.T-C{
+    margin: 1.5rem 0;
+}
+
+.T-C h1{
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    color: #ecc3e7;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
 }
