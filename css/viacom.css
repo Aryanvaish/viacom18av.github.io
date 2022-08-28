@@ -9,7 +9,7 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #282e77;
+    background-color: var(--MainColor);
 }
 
 h1{
@@ -48,11 +48,18 @@ body{
     padding-right: 15px;
 }
 
+:root{
+    --MainColor: #282e77;
+    --SecondColor: #ecc3e7;
+    --White: #fff;
+    --SecondBG: #3d36a9;
+}
+
 .nav-bar{
     width: 104.3rem;
     height: 6.7rem;
     border-radius: .2rem;
-    background-color: #ffffff;
+    background-color: var(--White);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,7 +69,7 @@ body{
 
 .nav-bar h1{ 
     font-size: 1.8rem;
-    color: #282e77;
+    color: var(--MainColor);
     font-weight: 700;
 }
 
@@ -77,7 +84,7 @@ body{
 
 .nav-bar ul li a{
     font-size: 1.4rem;
-    color: #282e77;
+    color: var(--MainColor);
     font-weight: 600;
     text-decoration: none;
 }
@@ -103,7 +110,7 @@ body{
 
 .left-banner h3{
     font-size: 1.2rem;
-    color: #ffffff;
+    color: var(--White);
     font-weight: 400;
     font-family: "Poppins";
     margin: 0 0 2rem 0;
@@ -120,14 +127,14 @@ body{
 
 .diji-insum h1{
     font-size: 5rem;
-    color: #fff;
+    color: var(--White);
     margin: -2rem 0 0 1rem;
     font-weight: 600;
 }
 
 .diji-insum h2{
     font-size: 5rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 400;
     margin: -2.6rem 0 0 1rem;
     text-align: left;
@@ -142,7 +149,7 @@ body{
 .init-to-finance h3{
     font-size: 1.3rem;
     letter-spacing: .4rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 500;
     text-align: center;
     margin: .4rem 0 0 0;
@@ -151,7 +158,7 @@ body{
 .sponsored h1{
     font-size: 1.2rem;
     letter-spacing: 1px;
-    color: #fff;
+    color: var(--White);
     font-weight: 500;
     margin: .6rem 0 0 0;
 }
@@ -166,7 +173,7 @@ body{
     font-size: 1.6rem;
     letter-spacing: .2rem;
     line-height: 2.0rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 600;
     font-style: italic;
     width: 35rem;
@@ -177,7 +184,7 @@ body{
 .sponsored h3{
     font-size: 2rem;
     letter-spacing: .2rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
 }
 
@@ -194,7 +201,7 @@ body{
 .overview h1{
     font-size: 3.6rem;
     letter-spacing: .4rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     text-align: center;
     margin: 6rem 0 3rem 0;
@@ -212,14 +219,14 @@ body{
 }
 
 .key-diss{
-    background-color: #3d36a9;
+    background-color: var(--SecondBG);
     padding: 2rem 0;
 }
 
 .key-diss h1{
     font-size: 3.6rem;
     letter-spacing: .4rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     text-align: center;
     margin: 2rem 0 3rem 0;
@@ -239,7 +246,7 @@ body{
     width: 15.1rem;
     height: 18.6rem;
     border-radius: 1rem;
-    background-color: #282e77;
+    background-color: var(--MainColor);
     box-sizing: border-box;
     margin: 1rem;
 }
@@ -320,7 +327,7 @@ body{
     font-size: 1.3rem;
     letter-spacing: .1rem;
     line-height: 1.4rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 700;
     margin: 1rem auto;
 }
@@ -335,7 +342,7 @@ body{
 .Speakers h1{
     font-size: 3.6rem;
     letter-spacing: .4rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     text-align: center;
     margin: 2rem 0 3rem 0;
@@ -356,10 +363,10 @@ body{
     height: 23.3rem;
     border-radius: 11.6rem;
     filter: drop-shadow(0px 8px 4px rgba(0,0,0,0.14));
-    background-color: #fff;
+    background-color: var(--White);
 }
 .cir-stru:hover{
-    background-color: #282e77;
+    background-color: var(--MainColor);
     cursor: pointer;
 }
 .men-cir{
@@ -389,7 +396,7 @@ body{
     font-size: 1.8rem;
     letter-spacing: .2rem;
     line-height: 1.2rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 600;
     margin: 2rem 0 2rem 0;
 }
@@ -399,7 +406,7 @@ body{
     font-size: 1.4rem;
     letter-spacing: .1rem;
     line-height: 2rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 600;
     text-align: center;
 }
@@ -447,7 +454,7 @@ body{
 .agenda h1{
     font-size: 3.6rem;
     letter-spacing: .4rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     text-align: center;
     margin: 2rem 0 0 0;
@@ -456,7 +463,7 @@ body{
 .agenda h2{
     font-size: 2.4rem;
     letter-spacing: .2rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 600;
     text-align: center;
 }
@@ -487,7 +494,7 @@ body{
 .left-agen h1{
     font-size: 1.8rem;
     letter-spacing: .1rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 700;
     text-align: left;
 }
@@ -495,7 +502,7 @@ body{
 .left-agen h2{
     font-size: 1.8rem;
     letter-spacing: .1rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     text-align: left;
 }
@@ -504,7 +511,7 @@ body{
     font-size: 1.8rem;
     letter-spacing: .1rem;
     line-height: 2.4rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 700;
     font-family: "Poppins";
     text-align: left;
@@ -514,7 +521,7 @@ body{
     font-size: 1.8rem;
     letter-spacing: .1rem;
     line-height: 2.4rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 400;
     width: 50rem;
     text-align: left;
@@ -522,14 +529,14 @@ body{
 }
 
 .who-should{
-    background-color: #3d36a9;
+    background-color: var(--SecondBG);
     padding: 4rem 0 3rem 0;
 }
 
 .who-should h1{
     font-size: 3.6rem;
     letter-spacing: .4rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     text-align: center;
     margin: 1rem 0 0 0;
@@ -567,7 +574,7 @@ body{
 .tick-who h1{
     font-size: 2.2rem;
     letter-spacing: .2rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 500;
 }
 
@@ -578,7 +585,7 @@ body{
 .Why-attend h1{
     font-size: 3.6rem;
     letter-spacing: .4rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     text-align: center;
     margin: 4rem 0 3rem 0;
@@ -662,7 +669,7 @@ body{
     font-size: 3.6rem;
     letter-spacing: .3rem;
     line-height: 1.6rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 800;
     filter: drop-shadow(0px 2px 0.5px rgba(0,0,0,0.6));
     margin: 1rem 0 8rem 0;
@@ -686,7 +693,7 @@ body{
     font-size: 2.2rem;
     letter-spacing: .2rem;
     line-height: 1.6rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 600;
     margin: 1.2rem 0 1rem 1.5rem;
 }
@@ -695,7 +702,7 @@ body{
     font-size: 1.3rem;
     letter-spacing: .2rem;
     line-height: 1.6rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 600;
     margin: .3rem 0 0 1.5rem;
 }
@@ -703,7 +710,7 @@ body{
 .contact-us{
     width: 85%;
     height: 43.5;
-    background-color: #3d36a9;
+    background-color: var(--SecondBG);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -724,7 +731,7 @@ body{
     font-size: 3.6rem;
     letter-spacing: .4rem;
     line-height: 1.2rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     margin: 1rem 0 8rem 0;
 }
@@ -743,7 +750,7 @@ body{
     font-size: 2rem;
     letter-spacing: .2rem;
     line-height: 1.2rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 600;
     margin: 0 0 2rem 0;
 } 
@@ -751,7 +758,7 @@ body{
 .cont-layout h2{
     font-size: 1.8rem;
     letter-spacing: 2px;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 700;
     margin: 0;
 }
@@ -766,14 +773,14 @@ body{
 
 .mail-logo h2{
     font-size: 1.2rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 500;
     margin: 0;
 }
 
 .call-logo h2{
     font-size: 1.2rem;
-    color: #fff;
+    color: var(--White);
     font-weight: 500;
     margin: 0;
 }
@@ -785,7 +792,7 @@ body{
 .T-C h1{
     font-size: 1.6rem;
     letter-spacing: .2rem;
-    color: #ecc3e7;
+    color: var(--SecondColor);
     font-weight: 500;
     text-align: center;
 }
@@ -964,7 +971,7 @@ span{
 
     .Speakers h1 {
         font-size: 3.6rem;
-        color: #ecc3e7;
+        color: var(--SecondColor);
         font-weight: 700;
         text-align: center;
         margin: 2rem 0 3rem 0;
@@ -1157,7 +1164,7 @@ span{
     .T-C h1{
         font-size: 1.2rem;
         letter-spacing: .2rem;
-        color: #ecc3e7;
+        color: var(--SecondColor);
         font-weight: 500;
         text-align: center;
     }
@@ -1170,7 +1177,7 @@ span{
         height: 5rem;
         border-radius: .4rem;
         flex-direction: column;
-        background-color: #282e77;
+        background-color: var(--MainColor);
         display: flex;
         align-items: center;
         justify-content: center; 
@@ -1180,7 +1187,7 @@ span{
     .nav-bar h1 {
         font-size: 1.4rem;
         padding: .8rem 1.5rem;
-        background-color: #fff;
+        background-color: var(--White);
         border-radius: .3rem;
         margin: 2.5rem 0 0 0;
     }
@@ -1189,7 +1196,7 @@ span{
         display: flex;
         margin: 1.8rem auto 0 auto;
         padding: 1rem 1.5rem;
-        background-color: #fff;
+        background-color: var(--White);
         border-radius: .3rem;
     }
 
@@ -1480,14 +1487,14 @@ span{
         height: auto;
         border-radius: 0;
         flex-direction: column;
-        background-color: #3d36a9;
+        background-color: var(--SecondBG);
         margin: 0;  
     }
 
     .nav-bar h1 {
         font-size: 1.4rem;
         padding: .4rem 1.2rem;
-        background-color: #fff;
+        background-color: var(--White);
         border-radius: .3rem;
         margin: 1.5rem 0;
     }
@@ -1496,14 +1503,16 @@ span{
         display: none;
         margin: .5rem auto 2rem auto;
         flex-direction: column;
+        padding: .5rem 1.5rem;
     }
 
     .nav-bar ul li {
-         margin: .3rem 0;
+         margin: .6rem 0;
     }
 
     .nav-bar ul li a {
-        font-weight: 600;
+        font-weight: 700;
+        letter-spacing: .1rem;
     }
 
     .banner {
@@ -1766,7 +1775,6 @@ span{
         line-height: 1rem;
     }
 
-    
     .menu-btn{
         display: flex;
     }
