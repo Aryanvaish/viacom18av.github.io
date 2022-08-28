@@ -14,7 +14,7 @@
     <div class="container">
         <div class="nav-bar">
             <h1>DigiFraudInsidersSubmit</h1>
-            <ul>
+            <ul id="resp-nav">
                 <li><a href="#">Overview</a></li>
                 <li><a href="#">Key Discussion</a></li>
                 <li><a href="#">Tracks</a></li>
@@ -24,6 +24,9 @@
                 <li><a href="#">T&C</a></li>
                 <li><a href="#">Venue</a></li>   
             </ul>
+            <div class="menu-btn">
+                <span onclick="myfunction()">&#9776;</span>
+              </div>
         </div>
     </div>
 </section>
@@ -544,6 +547,18 @@
 
 
 
-
+<script>
+    function myfunction(){
+        var x = document.getElementById("resp-nav");
+    
+        if(x.style.display == "block")
+        {
+          x.style.display = "none";
+        }
+        else{
+          x.style.display = "block";
+        }
+    }
+  </script>
 </body>
 </html> 
